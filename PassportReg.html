@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Passport Seva System Support</title>
+
+<link rel="stylesheet" type="text/css" href="Problem3.css">
+<script src="PassportReg.js"></script>
+</head>
+<body>
+<form action="Problem3_Page2.html" name="form" onsubmit="return validate()">
+     	<table style="width:20%">
+<tr>
+<td>        <label style="text-align: center;">User Name</label></td>
+     <td>	<input type="text" name="name"></td><br>
+</tr>
+<tr>
+      <td>  <label>Password</label></td >
+     <td>   <input type="password" name="password" min="8" max="20"></td><br>
+   </tr>  	
+      <tr>
+     <td>   <label>Qualification</label></td>
+       <td> <select>
+            <option value="Select">Select</option>
+         <option value="B.Tech">B.Tech</option>
+         <option value="BE.,">BE.,</option>
+         <option value="B.Sc">B.Sc</option>
+         </select></td>
+         <br>
+</tr>
+<tr>
+      <td>  <label>Primary Email ID</label></td>
+      <td>   <input type="email" name="email"></td>
+
+    <br> </tr>
+        
+<tr>
+     <td>    <label>Secondary Email ID</label></td>
+     <td>  <input type="email" name="email"><br> </td>
+</tr>
+<tr>
+     <td>    <label>Mobile No.</label>  </td>
+      <td>   <input type="mobile" name="mobile"> </td><br>
+     </tr>
+
+     <tr>
+       <td>  <label>Landline No.</label> </td>
+      <td>   <input type="number" name="Landline"> </td><br> 
+     </tr>
+<tr>
+     <td>    <label>Date Of Birth</label></td>
+    <td>     <input type="date" name="date of birth"></td><br>  
+</tr>
+<tr>
+     <td>	<label>Apply type</label></td>
+     <td>    <select>
+            <option value="Select">Select</option>
+         <option value="National Type">National Type</option>
+         <option value="International Type">International Type
+         </select>
+</td>
+        <br>
+</tr>
+     	  <tr>
+           <td>   <label>Gender</label></td>
+   <td>     <input type="radio" name="textarea">Male</input>
+         <input type="radio" name="textarea">Female</input></td><br>
+        </tr>
+
+        <tr>
+      <td>  <label>Hint Question</label></td>
+       <td>  <select>
+            <option value="Select">Select</option>
+         <option value="1st">What is your mother's maiden name?</option>
+         <option value="2nd">What is your first school name?</option>
+         <option value="3rd">What is your favorite book?</option>
+          <option value="4th">What is your favorite food item?</option>
+           <option value="5th">What is your favorite color?</option>
+         </select></td>
+         <br>
+</tr>
+     <tr>
+     <td>   <label>Hint Answer</label> </td>
+
+<td>         <input type="name" name="answer"></td><br>
+</tr>
+</table>
+ <input type="submit" value="Submit">
+
+                       <input type="Reset" value="Reset">
+     </form>
+
+</body>
+</html>
