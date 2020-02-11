@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; 
+ charset=windows -1252">
+	<title>Flex Align-Items</title>
+	<h1>Flex </h1>
+	<style>
+		.flex-container{
+			display: -webkit-flex;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;    
+			align-items: flex-start;
+			width: 500px;
+			height: 300px;
+			background-color: purple;
+			/* transform: translate(100px,80px); */
+			/* transform: rotate(30deg); */
+			 transform: skewX(30deg); 
+			/* transform: skewY(30deg); */
+			/* transform: skew(40deg,40deg); */
+			/* transform: rotateY(150deg); */
+		}
+		.flex-item{
+
+			background-color: violet;
+			width:100px;
+			height: 100px;
+			margin: 10px;
+		}
+	</style>
+
+
+   	
+</head>
+<body>
+  <div class="flex-container">
+     	<div class="flex-item">flex-item1</div>
+     	<div class="flex-item">flex-item2</div>
+     	<div class="flex-item">flex-item3</div>
+     	<div class="flex-item">flex-item4</div>
+     </div> 
+</body>
+</html>
