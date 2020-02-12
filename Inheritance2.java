@@ -1,3 +1,12 @@
+/* Create an overloaded constructor in the employee class, which takes the below constructor parameters and initializes them to their respective instance variables.
+
+Constructor parameter	Instance Variable
+Id	employeeId
+Name	employeeName
+address	employeeAddress
+phone	employeePhone
+*/
+
 import java.util.*;
 class Inheritence2{
 int id;
