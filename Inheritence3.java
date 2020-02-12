@@ -1,3 +1,9 @@
+/* Create a method calculateSalary in which the basic salary needs to be calculated as below.
+
+salary =  basicSalary + ( basicSalary * specialAllowance/100) + ( basicSalary * hra/100); 
+The calculated salary should be displayed in the console. */
+
+
 import java.util.*;
 class Inheritence3{
 public static int calculateSalary(int salary,int basicSalary,int specialAllowance,int hra)
