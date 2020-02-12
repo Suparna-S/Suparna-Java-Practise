@@ -1,3 +1,6 @@
+// Write a program to accept a student’s name and three marks. Display the total and average. 
+//Display result as First class, Second class, Pass class and Fails
+
 import java.util.*;
 public class PassAndFail{
  public static void main(String[] args) {
