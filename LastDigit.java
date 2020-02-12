@@ -1,3 +1,5 @@
+// Write a program to accept a number and display the last digit of the number in words.
+
 import java.util.*;
 public class LastDigit{
  public static void main(String[] args) {
