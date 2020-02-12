@@ -1,3 +1,7 @@
+//Serises  Write a program to generate the following series:
+
+            //            1, -2, 3, -4, 5, -6, … N
+
 import java.util.*;
 public class Series{
  public static void main(String[] args) {
