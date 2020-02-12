@@ -1,3 +1,7 @@
+/*   Write a program to print the following series
+2 5 11 17 23 31 41 47 59  ...  */
+
+
 import java.util.Scanner;
 class printseries
 {
