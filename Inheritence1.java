@@ -1,3 +1,15 @@
+/* Create a class Employee with the following instance variables.
+
+Instance variables 	Data type
+employeeId	long
+employeeName	String
+employee Address	String
+employee Phone	Long
+basicSalary	double
+specialAllowance	double  default value- 250.80
+Hra	double,default value- 1000.50
+*/
+
 import java.util.*;
 class Inheritence1{
 public static void main(String args[]){
