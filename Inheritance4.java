@@ -1,3 +1,14 @@
+/* Create the sub classes Manager and Trainee with base class Employee. Create overloaded constructors which takes the below parameters and initializes them to their respective variables in the super class.
+
+Constructor parameter	Instance Variable
+id	employeeId
+Name	employeeName
+address	employeeAddress
+phone	employeePhone
+salary	basicSalary
+*/
+
+
 import java.util.*;
 class Base{
 int id;
