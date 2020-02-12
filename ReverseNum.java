@@ -1,3 +1,5 @@
+/*  Write a program to find the reverse of a number. Store the reverse value in a different variable. Display the reverse */
+
 import java.util.*;
 public class ReverseNum{
  public static void main(String[] args) {
