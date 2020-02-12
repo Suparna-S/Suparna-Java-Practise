@@ -1,3 +1,7 @@
+/* Write a program to store N elements in an array of integer. 
+Display the elements. Accept a number to be searched. Display whether the number is found or not in the array (LINEAR SEARCH)
+*/ 
+
 import java.util.Scanner;
 public class LinearSearch
 {
